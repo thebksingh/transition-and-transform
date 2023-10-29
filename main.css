@@ -5,4 +5,13 @@ div{
   top:20%;
   left:20%;
   background-color:red;
+  transform:rotate(100deg); /*clockwise direction 100 deg*/
+  transform:scale(1.5); /*bigger and smaller*/
+  transform:translate(200px); /*move 200px in x direction*/
+  transition:1s ease-in-out;
+}
+
+div:hover{
+  height:400px;
+  width:400px;  
 }
